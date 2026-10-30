@@ -51,3 +51,77 @@
 .evidence-foot{margin:18px 0 0;color:#9a927f;font-size:.67rem}
 @media(max-width:950px){.agency-signature{min-height:330px;padding:25px}.signature-mark{font-size:4.7rem}}
 @media(max-width:650px){.hero-art{height:320px}.agency-signature{min-height:285px;width:100%;padding:22px}.signature-mark{font-size:4rem}.agency-signature>strong{font-size:2.3rem}.process-band{padding:55px 22px}.process-heading{display:block}.process-heading>p{margin-top:12px}.process-steps{grid-template-columns:1fr 1fr}.process-steps article{padding:17px 15px 20px 0;margin-right:15px}.process-steps article:nth-child(2){border-right:0;margin-right:0}.process-steps article:nth-child(3),.process-steps article:nth-child(4){border-top:1px solid #c9c4b8}.evidence-list>div{grid-template-columns:28px 1fr;gap:7px}.evidence-list small{grid-column:2}}
+
+/* Warm light agency palette — retain Ishanc gold, replace heavy black surfaces */
+:root{--gold:#C99522;--black:#26231f;--paper:#F5F2EA;--ink:#28251f;--muted:#716d64;--line:rgba(40,37,31,.15)}
+body{background:#F5F2EA;color:#28251f}
+.site-header{background:#F8F6F0;border-bottom:1px solid #e4dfd3}
+.brand img{filter:none}
+.nav{color:#38352f}
+.nav>a:hover{color:#A87912}
+.nav-cta{border-color:#C99522;color:#946b13}
+.menu-toggle{color:#28251f}
+.menu-toggle span{background:currentColor}
+.nav{background:#F8F6F0}
+.hero{background:#F1EEE6;color:#28251f}
+.hero-intro{color:#68645c}
+.text-link{color:#38352f;border-color:#bdb5a5}
+.hero-bottom{border-color:#d8d1c3;color:#777166}
+.hero-bottom b{color:#946b13}
+.trust-strip{background:#D8B45F;color:#28251f}
+.trust-strip i{background:#66501f}
+.section-kicker{color:#81796b}
+.intro h2 em,.work h2 em,.founder h2 em,.social h2 em{color:#A87912}
+.services{background:#E7E2D7;color:#292720}
+.services .section-kicker.light{color:#777064}
+.services .section-kicker.light b{background:#c9c1b2}
+.services-heading p{color:#68645b}
+.service-grid{border-color:#c9c2b5}
+.service-grid article{border-color:#c9c2b5}
+.service-grid article:hover{background:#f0ede6}
+.service-grid p{color:#68645c}
+.service-grid h3{color:#28251f}
+.service-grid small,.service-grid i{color:#A87912}
+.work{background:#F5F2EA}
+.work-visual{box-shadow:0 8px 24px rgba(46,39,25,.06)}
+.growth{background:#E9E4D9;color:#292720}
+.growth>div:first-child>p{color:#68645c}
+.growth .section-kicker.light{color:#777064}
+.growth .section-kicker.light b{background:#c9c1b2}
+.growth-panel{background:#F7F4ED;border-color:#d2cabb}
+.panel-head{color:#655f54}
+.panel-head b{color:#89620f;border-color:#c5a85f}
+.evidence-intro{color:#69645a}
+.evidence-list{border-color:#d7d0c3}
+.evidence-list>div{border-color:#d7d0c3}
+.evidence-list>div>span{color:#A87912}
+.evidence-list strong{color:#302c25}
+.evidence-list small{color:#777166}
+.evidence-foot{color:#777064}
+.founder{background:#F8F6F0}
+.founder-photo{background:#e6dfd1}
+.founder-photo>span{background:#e2d7bd;color:#765511}
+.social{background:#EDE9E0}
+.contact{background:#E5DFD2;color:#28251f}
+.contact-inner>p:not(.eyebrow){color:#686158}
+.contact .eyebrow{color:#946b13}
+.contact:after{border-color:#C9952228;box-shadow:0 0 0 60px #C995220b,0 0 0 120px #C9952207}
+.contact .text-link{color:#38352f;border-color:#aaa18f}
+footer{background:#DCD5C7;color:#655e51}
+footer img{filter:none}
+footer>b,footer span b{color:#28251f}
+footer>a:last-child{color:#89620f}
+.agency-signature{background:#E8E2D6;border-color:#c8b98f}
+.signature-index,.signature-foot{color:#786b4d}
+.signature-mark{color:#302c25}
+.signature-mark span:last-child{color:#A87912}
+.signature-rule{background:#c9b98f}
+.agency-signature>strong{color:#302c25}
+.agency-signature>strong em{color:#A87912}
+.agency-signature>p{color:#716a5d}
+.client-nadra{background:#e6e0d4;color:#302c25}
+.client-smart{background:#d8b45f;color:#29251c}
+.client-meems{background:#ead8d2;color:#30201f}
+.client-kebram{background:#ded8cb;color:#302c25}
+.client-account{border-color:#d5cdbf}
+@media(max-width:950px){.nav{background:#F8F6F0}}
