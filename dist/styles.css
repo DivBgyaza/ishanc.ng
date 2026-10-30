@@ -16,3 +16,7 @@
 .client-account span{color:#98721f;letter-spacing:.1em;font-weight:700}.client-account strong{font-size:.75rem}
 .contact-details{margin-top:18px!important;font-size:.82rem!important}.contact-details a{color:var(--gold);text-decoration:underline;text-underline-offset:4px}
 @media(max-width:650px){.client-grid{grid-template-columns:1fr;gap:27px}.client-visual{height:270px}.client-account{flex-direction:column;gap:5px}}
+
+.client-social-link{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:.75rem;font-weight:700;color:inherit;text-decoration:none}
+.client-social-link span{font-size:.62rem;color:#98721f;font-weight:700;white-space:nowrap}
+.client-social-link:hover span{text-decoration:underline;text-underline-offset:4px}
