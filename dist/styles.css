@@ -125,3 +125,13 @@ footer>a:last-child{color:#89620f}
 .client-kebram{background:#ded8cb;color:#302c25}
 .client-account{border-color:#d5cdbf}
 @media(max-width:950px){.nav{background:#F8F6F0}}
+
+/* Original client marks supplied by the client — displayed without recreating their identities. */
+.client-logo-visual{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;gap:1.4rem;padding:1.5rem 1.6rem}
+.client-logo-visual img{display:block;width:100%;height:clamp(120px,17vw,190px);object-fit:contain;max-width:100%;margin:auto}
+.client-nadra.client-logo-visual{background:#f8f5f4}
+.client-nadra.client-logo-visual img{max-width:82%}
+.client-kebram.client-logo-visual{background:#fff}
+.client-kebram.client-logo-visual img{max-width:94%}
+.client-logo-visual small,.client-logo-visual label{position:relative;z-index:1}
+@media(max-width:650px){.client-logo-visual{padding:1.1rem}.client-logo-visual img{height:140px}}
