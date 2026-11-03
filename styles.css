@@ -135,3 +135,5 @@ footer>a:last-child{color:#89620f}
 .client-kebram.client-logo-visual img{max-width:94%}
 .client-logo-visual small,.client-logo-visual label{position:relative;z-index:1}
 @media(max-width:650px){.client-logo-visual{padding:1.1rem}.client-logo-visual img{height:140px}}
+
+main{display:block!important}
